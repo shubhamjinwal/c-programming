@@ -1,0 +1,13 @@
+Grading at Thu Dec 27 10:01:31 UTC 2018
+Checking code1.c for legal syntax
+temp.c: In function ‘max’:
+temp.c:7:3: error: ‘else’ without a previous ‘if’
+   else {
+   ^
+temp.c:10:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+The code did not have legal syntax!
+
+Overall Grade: F
