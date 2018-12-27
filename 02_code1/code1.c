@@ -1,7 +1,7 @@
 int max (int num1, int num2) {
   if (num1>num2){
     printf("your answer is %d", num1);
-  };
+  }
   else {
     printf("your answer is %d", num2);
   };
