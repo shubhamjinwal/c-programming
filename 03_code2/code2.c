@@ -9,6 +9,7 @@ int printTriangle(int size) {
   }
   return starCount;
 }
+
 int main(void) {
   int numStars;
   printf("Here is a triangle with height 4\n");
