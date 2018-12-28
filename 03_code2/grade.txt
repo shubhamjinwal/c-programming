@@ -1,11 +1,6 @@
-Grading at Fri Dec 28 11:49:12 UTC 2018
+Grading at Fri Dec 28 11:51:24 UTC 2018
 Checking code2.c for legal syntax
-temp.c: In function ‘printTriangle’:
-temp.c:11:5: error: implicit declaration of function ‘getch’ [-Werror=implicit-function-declaration]
-     getch();
-     ^
-temp.c: At top level:
-temp.c:23:2: error: ISO C does not allow extra ‘;’ outside of a function [-Werror=pedantic]
+temp.c:22:2: error: ISO C does not allow extra ‘;’ outside of a function [-Werror=pedantic]
  };
   ^
 cc1: all warnings being treated as errors
