@@ -17,4 +17,4 @@ int main(void) {
   printf("Here is a triangle with height 7\n");
   numStars = printTriangle(7);
   printf("That triangle had %d total stars\n", numStars);
-};
+}
