@@ -6,7 +6,6 @@ int printTriangle(int size) {
       starCount++;
     }
     printf("\n");
-    getch();
   }
   return starCount;
 }
