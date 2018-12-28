@@ -1,17 +1,23 @@
-Grading at Fri Dec 28 13:06:21 UTC 2018
+Grading at Fri Dec 28 15:00:51 UTC 2018
 Checking code2.c for legal syntax
 Checking for int printTriangle (int size)
-Found on line 4, column 1 
+Found on line 6, column 1 
 Checking for int main(void)
-Found on line 18, column 1 
+Found on line 20, column 1 
 Trying to run the code..
 Your file matched the expected output
 Removing your main() and replacing it with our own to run more tests...
-temp3.c: In function ‘_old_removed_main_’:
-temp3.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
- }
- ^
-cc1: all warnings being treated as errors
-Could not replace your main function to test further
+Testing printTriangle(0) ... Correct
+Testing printTriangle(1) ... Correct
+Testing printTriangle(2) ... Correct
+Testing printTriangle(3) ... Correct
+Testing printTriangle(4) ... Correct
+Testing printTriangle(7) ... Correct
+Testing printTriangle(9) ... Correct
+Testing printTriangle(12) ... Correct
+Testing printTriangle(69) ... Correct
+Testing printTriangle(180) ... Correct
+Testing printTriangle(154) ... Correct
+Testing printTriangle(2402) ... Correct
 
-Overall Grade: F
+Overall Grade: A
