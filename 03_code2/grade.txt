@@ -1,9 +1,17 @@
-Grading at Fri Dec 28 11:51:24 UTC 2018
+Grading at Fri Dec 28 11:53:33 UTC 2018
 Checking code2.c for legal syntax
-temp.c:22:2: error: ISO C does not allow extra ‘;’ outside of a function [-Werror=pedantic]
- };
-  ^
+Checking for int printTriangle (int size)
+Found on line 3, column 1 
+Checking for int main(void)
+Found on line 14, column 1 
+Trying to run the code..
+Your file matched the expected output
+Removing your main() and replacing it with our own to run more tests...
+temp3.c: In function ‘_old_removed_main_’:
+temp3.c:22:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
 cc1: all warnings being treated as errors
-The code did not have legal syntax!
+Could not replace your main function to test further
 
 Overall Grade: F
