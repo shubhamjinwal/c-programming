@@ -17,10 +17,10 @@ int printTriangle(int size)
 int main(void)
 {
   int numStars;
-  printf("Here is a triangle with height 4\n");
+  printf("Here is a triangle with height 4");
   numStars = printTriangle(4);
   printf("That triangle had %d total stars\n", numStars);
-  printf("Here is a triangle with height 7\n");
+  printf("Here is a triangle with height 7");
   numStars = printTriangle(7);
   printf("That triangle had %d total stars\n", numStars);
 }
